@@ -164,6 +164,25 @@ ul span {
   height: 16rem;
 }
 
+.project-content a {
+  z-index: -1;
+  padding: 0.34em;
+  border-top-right-radius: 5px;
+  text-decoration: none;
+  font: normal normal bold 1em/1.313em Degular Text;;
+  color: #010101;
+}
+
+.btn {
+  position: relative;
+  bottom: 1.88em;
+  background: orangered;
+}
+
+.project-content:hover .btn {
+  z-index: 1;
+}
+
 footer {
   margin: 0;
   padding: 0%;
