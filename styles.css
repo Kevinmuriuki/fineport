@@ -6,11 +6,12 @@ body {
 
 h1 {
   margin: 1.57em 0;
-  font: normal normal bold 4em/0px Degular Display;
+  font: normal normal bold 4em/0.250em Degular-Display;
   color: #010101;
 }
 
 header {
+  height: 70vh;
   text-align: center;
 }
 
@@ -21,4 +22,26 @@ header img {
   position: relative;
 }
   
+.about {
+  height: 100vh;
+  background-color: #299AE7;
+  text-align: center;
+}
 
+.about h2 {
+  margin: 0;
+  font: normal normal bold 3em/1em Degular-Display;
+  color: #ffffff;
+}
+
+.about p {
+  font: normal normal normal 1.5em/1em Degular-Text;
+  color: #FFFFFF;
+}
+
+.about div {
+  margin: 0 auto;
+  position: relative;
+  top: 22rem;
+  width: 57.485%;
+}
