@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 1.57em 0;
+  font: normal normal bold 4em/0px Degular Display;
+  color: #010101;
+}
+
+header {
+  text-align: center;
+}
+
