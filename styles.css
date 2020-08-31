@@ -163,3 +163,33 @@ ul span {
   width: 100%;
   height: 16rem;
 }
+
+footer {
+  margin: 0;
+  padding: 0%;
+  background: #010101;
+  color: #ffffff;
+  text-align: center;
+}
+footer .wave {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  position: relative;
+  top: -1rem;
+}
+
+footer a {
+  font: normal normal bold 1em/1.313em Degular Text;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer a img {
+  height: 1.313em;
+  color: white;
+}
+
+footer p {
+  font: normal normal bold 1em/1.313em Degular Text;
+}
