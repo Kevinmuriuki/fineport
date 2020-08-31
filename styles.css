@@ -15,7 +15,7 @@ h2 {
 }
 
 h4 {
-  font: normal normal bold 3em/1em Degular-Display;
+  font: normal normal bold 1.5em/1em Degular-Display;
 }
 
 p {
@@ -53,6 +53,7 @@ header img {
 }
 
 .learning {
+  height: 85vh;
   text-align: center;
 }
 
@@ -82,15 +83,16 @@ header img {
 }
 
 ul {
+  max-width: 100%;
+  float: right;
+  clear: both;
   position: relative;
-  left: 31rem;
+  right: 24.9rem;
+  text-align: left;
 }
 
 li {
-  position: relative;
-  clear: both;
   padding: 0.538em 0;
-  width: 44%;
   border-top: 1px solid #9A9A9A;
   font: normal normal bold 1.125em/1.438em Degular Text;
   text-align: left;
@@ -112,3 +114,52 @@ ul span {
   color: #626262;
 }
 
+.projects {
+  background: #8B71EA;
+  text-align: center;
+}
+
+.projects h2 {
+  padding-top: 5rem;
+}
+
+.projects p {
+  margin: 0 auto 3em auto;
+  width: 57.485%;
+}
+
+.projects-container {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.project-content h4{
+  margin: 0.3em 0;
+  color: #010101;
+}
+
+.project-content p {
+  margin: 0;
+  padding: 0;
+  font: normal normal normal 1em/1.313em Degular Text;
+  color: #414141;
+  text-align: left;
+}
+
+.project-content {
+  width: 28.271%;
+  height: 27.57rem;
+  margin-bottom: 5rem;
+  padding: 0.5em;
+  border: 1px solid #9A9A9A;
+  background: #ffffff;
+  text-align: left;
+}
+
+.project-content img {
+  width: 100%;
+  height: 16rem;
+}
