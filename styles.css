@@ -10,6 +10,18 @@ h1 {
   color: #010101;
 }
 
+h2 {
+  font: normal normal bold 3em/1em Degular-Display;
+}
+
+h4 {
+  font: normal normal bold 3em/1em Degular-Display;
+}
+
+p {
+  font: normal normal normal 1.5em/1em Degular-Text;
+}
+
 header {
   height: 70vh;
   text-align: center;
@@ -26,17 +38,11 @@ header img {
   height: 100vh;
   background-color: #299AE7;
   text-align: center;
+  color: #ffffff;
 }
 
 .about h2 {
   margin: 0;
-  font: normal normal bold 3em/1em Degular-Display;
-  color: #ffffff;
-}
-
-.about p {
-  font: normal normal normal 1.5em/1em Degular-Text;
-  color: #FFFFFF;
 }
 
 .about div {
@@ -45,3 +51,64 @@ header img {
   top: 22rem;
   width: 57.485%;
 }
+
+.learning {
+  text-align: center;
+}
+
+.learning h2 {
+  margin-top: 5rem;
+}
+
+.flex-items {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 67.485%;
+}
+
+.flex-items img {
+  transition: 1200ms;
+}
+
+.flex-items img:hover {
+  transform: rotate(20deg);
+}
+
+.flex-items p {
+  text-align: left;
+  margin-left: 4em;
+}
+
+ul {
+  position: relative;
+  left: 31rem;
+}
+
+li {
+  position: relative;
+  clear: both;
+  padding: 0.538em 0;
+  width: 44%;
+  border-top: 1px solid #9A9A9A;
+  font: normal normal bold 1.125em/1.438em Degular Text;
+  text-align: left;
+  list-style: none;
+}
+
+li:last-child {
+  border-bottom: 1px solid #9A9A9A;
+}
+
+li:hover {
+  color: orangered;
+}
+ 
+ul span {
+  float: right;
+  clear: both;
+  font: normal normal 1.125em/1.438em Degular Text;
+  color: #626262;
+}
+
